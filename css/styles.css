@@ -80,7 +80,17 @@ p.hText{
     font-weight: 500;
 }
 
-a.hLink{
+.about{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  width: fit-content;
+  height: fit-content;
+}
+
+a.Link{
     padding: 8px;
     display: inline-block;
     margin-top: 10px;
