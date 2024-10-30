@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: #1e1d2b;
+}
+
+section{
+    display: inline-block;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 3;
+}
+
+/* responsive */
+nav.active {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+nav h2.logo {
+  font-weight: bold;
+  font-size: xx-large;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  color: #ff702a;
+  font-weight: 430;
+}
+.home{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    width: fit-content;
+    height: fit-content;
+}
+
+.imgHome{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+h1.logo{
+    font-weight: bold;
+    font-size: 90px;
+    color: #ff702a;
+    font-weight: 600;
+    box-sizing: content-box;
+    width: fit-content;
+    height: fit-content;
+}
+p.hText{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+a.hLink{
+    padding: 8px;
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#ff702a;
+    text-decoration: none;
+}
+
+a.hLink:hover{
+    color: #ff702a;
+    background-color: #fff;
+}
+
+nav .bars {
+  position: absolute;
+  right: 1rem;
+  font-size: xx-large;
+  display: none;
+}
+
+ul.nav-links {
+  display: flex;
+}
+
+/* responsive */
+nav.active ul.nav-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+li.nav-link {
+  list-style: none;
+  margin: 0.5rem 0.7rem;
+  padding: 0.4rem;
+  display: flex;
+  align-items: center;
+}
+
+li.nav-link:hover {
+  color: #333;
+}
+
+li.nav-link a {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+}
+
+@media screen and (max-width: 800px) {
+  nav .bars {
+    display: block;
+  }
+
+  nav .nav-links {
+    display: none;
+  }
+}
+
+/* It is ready */
+/* Have a good time */
