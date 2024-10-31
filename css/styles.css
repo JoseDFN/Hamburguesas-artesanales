@@ -82,12 +82,101 @@ p.hText{
 
 .about{
   position: absolute;
-  top: 50%;
+  top: 150%;
   left: 70%;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
   width: fit-content;
   height: fit-content;
+}
+
+div.about h4{
+  margin-bottom: 20px;
+  color: #ff702a;
+}
+
+div.about div h2{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 420;
+} 
+
+p.tAbout{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.imgAbout{
+  position: absolute;
+  top: 150%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+div.about div a.Link{
+  padding: 8px 16px 8px 16px;
+  display: inline-block;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  background-color:#ff702a;
+  text-decoration: none;
+}
+
+div.menu{
+  width: 100vw;
+  text-align: center;
+  position: absolute;
+  top: 215%;
+}
+
+div.menu h4{
+  margin-bottom: 20px;
+  color: #ff702a;
+}
+
+div.menu h2{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 420;
+} 
+
+div.modMenus{
+  position:absolute;
+  top: 250%;
+  width: 100vw;
+  text-align: center; /* Centra los elementos inline-block */
+}
+
+div.moduloimg{
+  position: relative;
+  width: 20vw; /* Limita el ancho máximo si es necesario */
+  height: auto;
+  background: #ffefe8;
+  top: 50%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 1.5%; /* Agrega margen horizontal para espaciamiento */
+  padding: 1rem; /* Añadimos padding uniforme */
+}
+
+div.moduloimg.img1, div.moduloimg.img2, div.moduloimg.img3 {
+  width: 20vw;
+  left: auto;
+  right: auto;
+  padding-right: 0;
+}
+
+.imagenModMen{
+  padding: 1rem 1.5rem 0.5rem 1.5rem;
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+p.tModMen{
+  padding-bottom: 0.7rem;
 }
 
 a.Link{
