@@ -358,6 +358,11 @@ a.Link2{
   text-decoration: none;
 }
 
+div.about div a.Link:hover{
+  color: #ff702a;
+    background-color: #fff;
+}
+
 a.Link:hover{
     color: #ff702a;
     background-color: #fff;
