@@ -126,9 +126,17 @@ div.about div a.Link{
   text-decoration: none;
 }
 
+div.contMenu{
+  position: relative;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  top: 40%
+}
+
 div.menu{
-  width: 100vw;
+  width: 90vw;
   text-align: center;
+  left: 5%;
   position: absolute;
   top: 215%;
 }
@@ -147,7 +155,7 @@ div.menu h2{
 div.modMenus{
   position:absolute;
   top: 250%;
-  width: 100vw;
+  width: 90vw;
   text-align: center; /* Centra los elementos inline-block */
 }
 
