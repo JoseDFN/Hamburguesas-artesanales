@@ -29,6 +29,7 @@ nav {
   align-items: center;
   color: white;
   position: fixed;
+  background-color: #1e1d2b;
   top: 0px;
   width: 100%;
   z-index: 3;
